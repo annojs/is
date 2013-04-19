@@ -2,7 +2,7 @@
     "name": "annois",
     "description": "Generative type checkers for JavaScript",
     "author": "Juho Vepsalainen <bebraw@gmail.com>",
-    "version": "0.1.0",
+    "version": "0.2.0",
 
     "devDependencies": {
         "suite.js": "== 0.6.0"
