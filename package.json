@@ -1,0 +1,38 @@
+{
+    "name": "annois",
+    "description": "Generative type checkers for JavaScript",
+    "author": "Juho Vepsalainen <bebraw@gmail.com>",
+    "version": "0.1.0",
+
+    "devDependencies": {
+        "suite.js": "== 0.5.6"
+    },
+
+    "scripts": {
+        "test": "node ./lib/tests.js"
+    },
+
+    "main": "./lib/annois.js",
+
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:bebraw/annois.git"
+    },
+
+    "directories": {
+        "lib": "./lib"
+    },
+
+    "homepage": "https://github.com/bebraw/annois",
+
+    "bugs": {
+        "url": "https://github.com/bebraw/annois/issues"
+    },
+
+    "keywords": ["testing", "utilities"],
+
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/bebraw/annois/blob/master/LICENSE"
+    }]
+}
