@@ -5,7 +5,7 @@
     "version": "0.1.0",
 
     "devDependencies": {
-        "suite.js": "== 0.5.6"
+        "suite.js": "== 0.6.0"
     },
 
     "scripts": {
