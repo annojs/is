@@ -1,8 +1,8 @@
-#!/usr/bin/env node
 'use strict';
 
 var suite = require('suite.js');
-var is = require('./annois');
+var is = require('./');
+
 
 suite(is.defined, [
     'foo', true,

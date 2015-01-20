@@ -7,9 +7,9 @@
     "suite.js": "0.6.0"
   },
   "scripts": {
-    "test": "node ./lib/tests.js"
+    "test": "node ./tests.js"
   },
-  "main": "./lib/annois.js",
+  "main": "./index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:annojs/is.git"
