@@ -57,6 +57,27 @@ suite(is.object, [
     4, false
 ]);
 
+suite(is.object.with.bind(null, [
+    'name',
+    'address',
+    'age'
+]), [
+    {}, false,
+    {name: 'foo'}, false,
+    {
+        name: 'foo',
+        address: 'something',
+        age: 123
+    }, true,
+    {
+        name: 'foo',
+        address: 'something',
+        age: 123,
+        occupation: 'cop'
+    }, true,
+    false, false
+]);
+
 suite(is.string, [
     'foo', true,
     'f', true,

@@ -33,6 +33,24 @@ function object(a) {
 
     return a !== null && typeof a === 'object';
 }
+function objectWith(fields, o) {
+    if(!array(fields) || !object(o)) {
+        return false;
+    }
+
+    var i, len, field;
+
+    for(i = 0, len = fields.length; i < len; i++) {
+        field = fields[i];
+
+        if(!(field in o)) {
+            return false;
+        }
+    }
+
+    return true;
+}
+object.with = objectWith;
 exports.object = object;
 
 function string(a) {
