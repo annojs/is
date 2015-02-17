@@ -4,7 +4,7 @@
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "version": "0.3.1",
   "devDependencies": {
-    "suite.js": "0.6.0"
+    "suite.js": "^0.6.1"
   },
   "scripts": {
     "test": "node ./tests.js"
